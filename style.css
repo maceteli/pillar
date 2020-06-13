@@ -342,14 +342,14 @@ margin-top:25px;
         border:none;
     }
     .section-content{
-        display:none;
+      
     }
     .section-2 .col-sm-12{
-    margin-top:50px;
+    margin-top:25px;
     
     }
     .section-2{
         background-color: #1f1d1d;
-        padding:0px 20px 20px 20px;
+        padding:0px 10px 20px 10px;
     }
 }
