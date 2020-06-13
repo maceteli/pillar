@@ -287,6 +287,9 @@ margin-top:25px;
     color:#fff;
     padding:10px 20px 10px 20px;
 }
+#left-side div:nth-child(3):focus-within{
+    margin-bottom:20px;
+}
 /*section 6*/
 .section-6{
     background-color:#111111;
@@ -304,7 +307,7 @@ margin-top:25px;
     z-index: 1;
     margin-bottom:10.5vh;
     margin-right:20px;
-    font-size:70px;
+    font-size:50px;
     color:green;
     
 }
@@ -351,5 +354,12 @@ margin-top:25px;
     .section-2{
         background-color: #1f1d1d;
         padding:0px 10px 20px 10px;
+    }
+    .section-4 .leftt-side-content{
+        width:90%;
+        margin:auto;
+        min-height: 100vh;
+        text-align: center;
+       
     }
 }
