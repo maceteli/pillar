@@ -133,10 +133,7 @@ form .start-project{
     text-align:center;
     padding: 0 50px 0 50px;
 }
-.section-2 .col-sm-6{
-    
-    
-}
+
 
 .section-title{
     display:block;
@@ -343,5 +340,16 @@ margin-top:25px;
         color:#fff;
         font-size:30px;
         border:none;
+    }
+    .section-content{
+        display:none;
+    }
+    .section-2 .col-sm-12{
+    margin-top:50px;
+    
+    }
+    .section-2{
+        background-color: #1f1d1d;
+        padding:0px 20px 20px 20px;
     }
 }
