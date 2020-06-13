@@ -28,8 +28,16 @@
     font-family: Righteous;
     font-size:30px;
     padding-left:40px;
+    color:#fff;
 }
-
+.navbar button{
+    border:none;
+}
+.fa-bars{
+    color:#fff;
+    font-size:30px;
+    border:none;
+}
 form .start-project{
   
     margin-right:40px;
@@ -138,6 +146,7 @@ form .start-project{
     font-weight:200;
     font-style:normal;
     margin-bottom:15px;
+    text-decoration:none;
 }
 .section-content{
     display:block;
@@ -205,7 +214,7 @@ margin-top:25px;
     font-size:40px;
     line-height:40px;
     margin-bottom:50px;
-    margin-top:70px;
+    margin-top:150px;
 }
 .section-4 .leftt-side-content span:nth-child(2){
     display:block;
@@ -239,15 +248,15 @@ margin-top:25px;
     max-height: 100vh;
     margin:auto;
     text-align: center;
-    padding-left:80px;
-    padding-right:80px
+    padding-left:250px;
+    padding-right:250px
 }
 #left-side div:nth-child(1){
     font-family:Righteous ;
     font-size:50px;
     line-height: 50px;
     margin-bottom:15px;
-    margin-top:80px;
+    margin-top:120px;
 }
 #left-side div:nth-child(2){
     font-family:forum;
@@ -269,6 +278,12 @@ margin-top:25px;
     margin-bottom:30px;
     background-color: transparent;
 }
+#left-side input[type=text]:focus, #left-side input[type=email]:focus{
+    box-shadow: none !important;
+    outline:none;
+    border:none;
+    border-bottom:1px solid #000;
+}
 #left-side input[type=submit]{
     border:none;
     background-color:#000;
@@ -283,14 +298,36 @@ margin-top:25px;
     height:10vh;
     left:0;
     bottom:0;
+    margin-top:20px;
 }
 .fa-whatsapp{
     bottom:0;
     right:0;
     position:fixed;
     z-index: 1;
-    margin-bottom:12vh;
+    margin-bottom:10.5vh;
     margin-right:20px;
     font-size:70px;
     color:green;
+    
+}
+
+
+@media screen and (max-width:768px){
+    .section-4 .leftt-side-content span:nth-child(1){
+        display:block;
+        color:#000;
+        font-family:Righteous;
+        font-size:40px;
+        line-height:40px;
+        margin-bottom:50px;
+        margin-top:80px;
+    }
+    #left-side{
+        max-height: 100vh;
+        margin:auto;
+        text-align: center;
+        padding-left:50px;
+        padding-right:50px
+    }
 }
