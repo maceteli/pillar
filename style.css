@@ -10,10 +10,6 @@
     padding:0;
     margin:0;
 }
-#fullPage{
-    display:flex;
-    flex-direction: column;
-}
 /*header*/
 .header{
     height:100vh;
@@ -60,7 +56,12 @@ form .start-project{
 }
 /*section-1*/
 .section-1{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
     height:100vh;
+    
 }
 
 .section-1 .left-side{
@@ -77,33 +78,36 @@ form .start-project{
     padding-top:30px;
     height:100vh;
 }
-.section-1 .right-side-content{
-    margin:auto;
-     width:50%;
+ .right-side-content{
+    
+    width:50%;
     text-align: center;
-    display:flex;
-    align-items: center;
+    display:table-cell;
     max-height:100vh;
-    flex-direction: column;
+    vertical-align:middle;
+   
 }
-.section-1 .right-side-content span:nth-child(1){
+.right-side-content span:nth-child(1){
     display:block;
     color:white;
     font-family:Righteous;
     font-size:50px;
     line-height:50px;
     margin-bottom:30px;
-    margin-top:120px;
+    padding-left:80px;
+    padding-right:80px;
 }
-.section-1 .right-side-content span:nth-child(2){
+.right-side-content span:nth-child(2){
     display:block;
     color:#c9c9c9;
     font-family:forum;
     font-size:17px;
     font-weight:100;
     font-style:normal;
+    padding-left:80px;
+    padding-right:80px;
 }
-.section-1 .right-side-content span:nth-child(3){
+.right-side-content span:nth-child(3){
     display:block;
     color:#b3b3b3;
     font-family:Arial;
@@ -111,12 +115,14 @@ form .start-project{
     font-weight:100;
     font-style:normal;
     margin-top:30px;
+    padding-left:80px;
+    padding-right:80px;
 }
-.section-1 .right-side-content span:nth-child(3) a:link{
+ .right-side-content span:nth-child(3) a:link{
     color:#b3b3b3;
     text-transform: uppercase;
 }
-.section-1 .fa-play{
+ .fa-play{
     border-radius: 50%;
     background-color: #fff;
     color:#1f1d1d;
@@ -184,7 +190,10 @@ margin-top:25px;
 }
 /*section-4*/
 .section-4{
-    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
     height:100vh;
 }
 .section-4 .container-fluid{
@@ -202,23 +211,23 @@ margin-top:25px;
     
     height:100vh;
 }
-.section-4 .leftt-side-content{
-    width:70%;
+.leftt-side-content{
+    width:55%;
     margin:auto;
     min-height: 100vh;
     text-align: center;
    
 }
-.section-4 .leftt-side-content span:nth-child(1){
+ .leftt-side-content span:nth-child(1){
     display:block;
     color:#000;
     font-family:Righteous;
     font-size:40px;
     line-height:40px;
     margin-bottom:50px;
-    margin-top:150px;
+    
 }
-.section-4 .leftt-side-content span:nth-child(2){
+.leftt-side-content span:nth-child(2){
     display:block;
     color:#1f1d1d;
     font-family:forum;
@@ -226,7 +235,7 @@ margin-top:25px;
     font-weight:100;
     font-style:normal;
 }
-.section-4 .leftt-side-content span:nth-child(3){
+.leftt-side-content span:nth-child(3){
     display:block;
     color:#1f1d1d;
     font-family:Arial;
@@ -235,13 +244,17 @@ margin-top:25px;
     font-style:normal;
     margin-top:30px;
 }
-.section-4 .leftt-side-content span:nth-child(3) a:link{
+ .leftt-side-content span:nth-child(3) a:link{
     color:#1f1d1d;
     text-transform: uppercase;
 }
 /*section 5*/
 
 .section-5{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
     background-color:#fafafa;
     height:100vh;
 }
@@ -250,15 +263,15 @@ margin-top:25px;
     max-height: 100vh;
     margin:auto;
     text-align: center;
-    padding-left:250px;
-    padding-right:250px
+    padding-left:100px;
+    padding-right:100px
 }
 #left-side div:nth-child(1){
     font-family:Righteous ;
     font-size:50px;
     line-height: 50px;
     margin-bottom:15px;
-    margin-top:120px;
+   
 }
 #left-side div:nth-child(2){
     font-family:forum;
@@ -304,6 +317,10 @@ margin-top:25px;
     left:0;
     bottom:0;
     margin-top:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
 }
 .fa-whatsapp{
     bottom:0;
@@ -360,6 +377,7 @@ margin-top:25px;
         background-color: #1f1d1d;
         padding:0px 10px 20px 10px;
     }
+    
     .section-4 .leftt-side-content{
         width:90%;
         margin:auto;
