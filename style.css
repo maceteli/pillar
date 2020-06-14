@@ -17,7 +17,7 @@
 }
 .top{
    
-    background: linear-gradient(rgba(18,18,13,1), rgba(0,0,0,0.69)),url('img/computer-1873831_1920.png');
+    background: linear-gradient(rgba(18,18,13,1), rgba(0,0,0,0.69)),url('img\computer-1873831_1920.png');
     background-size:cover;
     padding-top:30px;
     max-height:100vh;
